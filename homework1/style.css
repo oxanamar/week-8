@@ -1,0 +1,14 @@
+.container-main {
+  background-color: #e9ecef;
+  font-weight: 200;
+  padding: 20px 40px;
+  margin: 20px 100px;
+}
+
+.container {
+  margin: 20px 90px;
+}
+
+.card-img-top {
+  width: 100%;
+}

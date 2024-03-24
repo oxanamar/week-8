@@ -1,0 +1,31 @@
+.cards {
+  display: grid;
+  grid-template-areas:
+    "card_praktikum1 card_praktikum2 card_praktikum3"
+    "card_praktikum4 card_praktikum5 card_praktikum6";
+  gap: 1rem;
+}
+
+.card_praktikum1 {
+  grid-area: card_praktikum1;
+}
+
+.card_praktikum2 {
+  grid-area: card_praktikum2;
+}
+
+.card_praktikum3 {
+  grid-area: card_praktikum3;
+}
+
+.card_praktikum4 {
+  grid-area: card_praktikum4;
+}
+
+.card_praktikum5 {
+  grid-area: card_praktikum5;
+}
+
+.card_praktikum6 {
+  grid-area: card_praktikum6;
+}
