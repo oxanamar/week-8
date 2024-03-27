@@ -1,9 +1,52 @@
-.cards {
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  background-color: #5222d0;
+  color: #fff;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn__title {
+  padding-left: 0.5rem;
+  padding-right: 0.3rem;
+}
+
+.btn__img {
+  padding-right: 0.5rem;
+}
+
+.container-section {
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding-bottom: 2rem;
+}
+
+.card {
   display: grid;
   grid-template-areas:
     "card_praktikum1 card_praktikum2 card_praktikum3"
-    "card_praktikum4 card_praktikum5 card_praktikum6";
+    "card_praktikum4 card_praktikum5 card_subscribe";
   gap: 1rem;
+}
+
+.card__title {
+  text-transform: uppercase;
 }
 
 .card_praktikum1 {
@@ -26,6 +69,18 @@
   grid-area: card_praktikum5;
 }
 
-.card_praktikum6 {
-  grid-area: card_praktikum6;
+.card_subscribe {
+  grid-area: card_subscribe;
+  background-color: #ec615b;
+  padding: 0 1rem;
+}
+
+.card__contact {
+  padding-bottom: 0.8rem;
+}
+
+.card__btn {
+  padding: 0.6rem;
+  font-weight: 600;
+  font-size: 0.6rem;
 }
